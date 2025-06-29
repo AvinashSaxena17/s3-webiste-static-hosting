@@ -66,12 +66,12 @@ Enabled static website hosting on the S3 bucket by specifying index and error do
 
 
 
-📤 6. Uploaded All Images, CSS and JS files including index.html and error.hmtl:
+📤 6. Uploaded an images, CSS files including index.html and error.hmtl:
 
 ![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/upload%20files.png)
 
 
-📤 7. Output the Website URL (outputs.tf)
+📤 7. Output the Website URL using terraform. (outputs.tf)
 
 ![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/s3-output-1.png)
 
