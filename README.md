@@ -116,11 +116,6 @@ terraform apply -auto-approve
 Terrafor destroy -auto-approve
 ```
 
-Terraform provisioned everything, uploaded my site, and gave me a live URL like:
-
-```
-http://avinash-portfolio-static-website.s3-website.ap-south-1.amazonaws.com
-```
 
 ## 🧠 What I Learned
 
