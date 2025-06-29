@@ -54,19 +54,30 @@ The solution automates the provisioning of AWS resources, ensuring repeatability
 
 🌐 5. Enabled Static Website Hosting:
 
-Turned on static website hosting for the S3 bucket by specifying an index and error document. This allowed the bucket to serve web pages directly over the internet.
+Enabled static website hosting on the S3 bucket by specifying index and error documents, allowing it to serve web pages directly over the internet.
 
 
 ![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/232025fc63ca61da8fe36e6e9e310ce46a335385/s3-images/s3-hosting.png)
 
+📤 6. Set up bucket policies to allow public read permissions on all objects within the S3 bucket, ensuring that anyone on the internet can retrieve and view the website’s static content without authentication. This configuration made the hosted web pages universally accessible to users via the S3 static website endpoint.
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/bucket_policies.png)
+
+
+
+
 📤 6. Uploaded All Images, CSS and JS files including index.html and error.hmtl:
 
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/232025fc63ca61da8fe36e6e9e310ce46a335385/s3-images/s3-files-upload.png)
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/upload%20files.png)
 
 
-📤 8. Output the Website URL (outputs.tf)
+📤 7. Output the Website URL (outputs.tf)
 
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/4e7f2bce9329f375fc6dc2997869e2239b5d2fe8/s3-images/s3-output-1.png)
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/s3-output-1.png)
+
+📤 8. Hosting the portfolio website.
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/s3-website%20hosting.png)
 
 
 🧪 Final Result
