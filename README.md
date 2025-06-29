@@ -66,50 +66,61 @@ Enabled static website hosting on the S3 bucket by specifying index and error do
 
 
 
-📤 6. Uploaded an images, CSS files including index.html and error.hmtl:
+📤 7. Uploaded an images, CSS files including index.html and error.hmtl:
 
 ![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/upload%20files.png)
 
 
-📤 7. Output the Website URL using terraform. (outputs.tf)
+📤 8. Output the Website URL using terraform. (outputs.tf)
 
 ![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/s3-output-1.png)
 
-📤 8. Hosting the portfolio website.
+📤 9. Creating resources using the Terraform configuration files.
 
-![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/s3-website%20hosting.png)
-
-
-🧪 Final Result
-
-After running:
+command to install plugins for providers used within the configuration.
 ```
-Terraform init
+terraform init
+````
+command to validate the terraform code is correct or having any errors.
+```
+terraform validate
+````
 
-Terrafor apply -auto-approve
+command is used to see the changes that will take place on the infrastructure.
+
+```
+terraform init
+````
+
+The command will provision the AWS resources defined in the main.tf file. By default, it prompts for user confirmation before applying the changes; to bypass this and automatically approve the resource creation, use the **--auto-approve** flag..
+```
+terraform apply -auto-approve
+```
+
+📤 10. 🌍 Output:
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/out-1.png)
+
+
+- 🎉 My portfolio was live hosted on AWS :
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/out-2.png)
+
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/out-3.png)
+
+
+⚠️ 10.  This action uses the terraform destroy command to immediately destroy all resources in a Terraform workspace.
+
+```
+Terrafor destroy -auto-approve
 ```
 
 Terraform provisioned everything, uploaded my site, and gave me a live URL like:
 
 ```
-avi-demo-my-bucket.s3-website.ap-south-1.amazonaws.com
+http://avinash-portfolio-static-website.s3-website.ap-south-1.amazonaws.com
 ```
-
-
-## 🌍 Output:
-
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/4e7f2bce9329f375fc6dc2997869e2239b5d2fe8/s3-images/s3-output.png))
-
-
-
-
-- 🎉 My portfolio was live hosted on AWS :
-
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/4e7f2bce9329f375fc6dc2997869e2239b5d2fe8/s3-images/s3-url-aws-console.png)
-
-
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/e885af385e952293434cc35b74f50e617781ac2b/s3-images/s3-webiste-host.png)
-
 
 ## 🧠 What I Learned
 
