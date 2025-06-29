@@ -34,7 +34,7 @@ The solution automates the provisioning of AWS resources, ensuring repeatability
 
 ✅ Initializes aws Provider:
 
-![App Screenshot](https://github.com/AvinashSaxena17/terraform-s3-portfolio-hosting/blob/232025fc63ca61da8fe36e6e9e310ce46a335385/s3-images/s3-terraform%20provider.png)
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/providers.png)
 
 
 🪣 3. Created a Randomized S3 Bucket & Cofigured Ownership Preferrence:
@@ -115,6 +115,11 @@ terraform apply -auto-approve
 ```
 Terrafor destroy -auto-approve
 ```
+
+![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/terraform-destroy2.png)
+
+
+
 
 
 ## 🧠 What I Learned
