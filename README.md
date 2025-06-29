@@ -1,4 +1,4 @@
-# s3-webiste-static-hosting
+# S3-webiste-static-hosting
 
 ## 📌 Project Overview:
 
