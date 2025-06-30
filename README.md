@@ -113,7 +113,7 @@ terraform apply -auto-approve
 ⚠️ 10.  This action uses the terraform destroy command to immediately destroy all resources in a Terraform workspace.
 
 ```
-Terrafor destroy -auto-approve
+terraform destroy -auto-approve
 ```
 
 ![App Screenshot](https://github.com/AvinashSaxena17/s3-webiste-static-hosting/blob/main/images/terraform-destroy2.png)
